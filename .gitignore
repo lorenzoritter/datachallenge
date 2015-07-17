@@ -1,3 +1,4 @@
-searches.csv
-searches.csv.bz2
-bookings.csv
+Files/searches.csv
+Files/bookings.csv
+Files/bookingsClean.csv
+Code/searches.h5
