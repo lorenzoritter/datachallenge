@@ -2,3 +2,4 @@ Files/searches.csv
 Files/bookings.csv
 Files/bookingsClean.csv
 Code/searches.h5
+*.h5
