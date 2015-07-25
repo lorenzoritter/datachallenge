@@ -1,0 +1,16 @@
+<html>
+<center>
+	<h3>Top Airports</h3>
+	<p>This web app shows you the mose frequently booked airplane destinations.</p>
+	<body>
+	  	<div id="container">
+			<h4 class="form-header">Please indicate the number of top airports that you are lookings for (e.g. type 10 for top 10 airports):</h4>
+			<form id="airportsForm" method="post" action="displayTopAirports.php">
+		 		Number of Airports: <input type="int" name="numAirports"><br><br>
+	  			<input id="idSubmit" type="button" value="Submit">
+			</form>
+		</div>
+  	</body>
+</html>
+
+<?php include ("template/footer.php"); ?>
