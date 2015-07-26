@@ -2,15 +2,16 @@
 <center>
 	<h3>Top Airports</h3>
 	<p>This web app shows you the mose frequently booked airplane destinations.</p>
+	<br>
 	<body>
-	  	<div id="container">
-			<h4 class="form-header">Please indicate the number of top airports that you are lookings for (e.g. type 10 for top 10 airports):</h4>
-			<form id="airportsForm" method="post" action="displayTopAirports.php">
-		 		Number of Airports: <input type="int" name="numAirports"><br><br>
-	  			<input id="idSubmit" type="button" value="Submit">
-			</form>
-		</div>
+	  	<div>
+			<h4>Please indicate the number of top airports that you are lookings for (e.g. type 10 for top 10 airports):</h4>
+			<form action="displayTopAirports.php" method="GET">
+		 		Number of Airports: <input type="number" name="numAirports" min="1">
+				<br><br>
+	  			<input type="submit" value="Submit"><br>
+				<div style="font-size:12">Retrieving the data can take a few minutes.</div>
+			</form>			
+		</div>	
   	</body>
 </html>
-
-<?php include ("template/footer.php"); ?>
